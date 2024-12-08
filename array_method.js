@@ -146,3 +146,18 @@ function run(data) {
 	data.push("X");
 	console.log(data);
 }
+
+//reverse -> method reverses an array in place. Thee first array element becoms the last, and the last array element become the first
+
+function run(data){
+	let new_array = data.reverse();
+	console.log(new_array)
+}
+
+// sort
+
+function run(data) {
+	data.sort();
+	console.log(data);
+	}
+run([3,4,2,6]);
